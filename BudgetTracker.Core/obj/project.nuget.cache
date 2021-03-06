@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ro+a7ioZJF3brb5y7dhvN4RZS/z/gvWDD3n1LLVDzbcNLCXMZTYfWdBXkFLBj6i/1XtMJrGzJlRxElq3+pBrxA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\JunShen.BudgetTracker\\BudgetTracker.Core\\BudgetTracker.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

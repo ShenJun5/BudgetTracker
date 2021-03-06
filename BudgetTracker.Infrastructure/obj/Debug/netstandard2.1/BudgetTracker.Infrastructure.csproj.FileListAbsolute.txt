@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\netstandard2.1\BudgetTracker.Infrastructure.deps.json
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\netstandard2.1\BudgetTracker.Infrastructure.dll
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\netstandard2.1\BudgetTracker.Infrastructure.pdb
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\netstandard2.1\BudgetTracker.Core.dll
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\bin\Debug\netstandard2.1\BudgetTracker.Core.pdb
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.AssemblyInfo.cs
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.csproj.CopyComplete
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.dll
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Infrastructure\obj\Debug\netstandard2.1\BudgetTracker.Infrastructure.pdb

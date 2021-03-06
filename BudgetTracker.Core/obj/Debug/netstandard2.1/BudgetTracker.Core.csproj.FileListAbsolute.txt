@@ -1,0 +1,9 @@
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\bin\Debug\netstandard2.1\BudgetTracker.Core.deps.json
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\bin\Debug\netstandard2.1\BudgetTracker.Core.dll
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\bin\Debug\netstandard2.1\BudgetTracker.Core.pdb
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.AssemblyInfo.cs
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.dll
+C:\Users\andre\source\repos\JunShen.BudgetTracker\BudgetTracker.Core\obj\Debug\netstandard2.1\BudgetTracker.Core.pdb
