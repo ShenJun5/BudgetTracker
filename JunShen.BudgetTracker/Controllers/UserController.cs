@@ -21,15 +21,21 @@ namespace BudgetTracker.API.Controllers
             _userService = userService;
         }
 
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult> GetUserDetails(int id)
+        {
+            var user = await _userService.GetUserDetails(id);
+            return Ok(user);
+        }
 
-        [HttpPost("income")]
+        [HttpPost("addincome")]
         public async Task<ActionResult> CreateIncome([FromBody] IncomeRequestModel incomeRequest)
         {
             await _userService.AddIncome(incomeRequest);
             return Ok();
         }
 
-        [HttpPost("expenditure")]
+        [HttpPost("addexpenditure")]
         public async Task<ActionResult> CreateExpenditure([FromBody] ExpenditureRequestModel expenditureRequest)
         {
             await _userService.AddExpenditure(expenditureRequest);
@@ -61,6 +67,20 @@ namespace BudgetTracker.API.Controllers
         public async Task<ActionResult> GetUserIncomesAsync(int id)
         {
             var userIncomes = await _userService.GetAllIncomesForUser(id);
+            return Ok(userIncomes);
+        }
+
+        [HttpGet("expenditures")]
+        public async Task<ActionResult> GetAllExpenditureAsync()
+        {
+            var userExpenditures = await _userService.GetAllExpenditures();
+            return Ok(userExpenditures);
+        }
+
+        [HttpGet("incomes")]
+        public async Task<ActionResult> GetAllIncomesAsync()
+        {
+            var userIncomes = await _userService.GetAllIncomes();
             return Ok(userIncomes);
         }
 

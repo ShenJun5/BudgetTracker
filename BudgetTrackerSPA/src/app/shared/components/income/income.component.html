@@ -1,0 +1,25 @@
+<div class="card mb-4 shadow  bg-light">
+    <a [routerLink]="[ '/User/', income ]">
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Description</th>
+                <th scope="col">Remarks</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row"> </th>
+                <td>{{income.amount}}</td>
+                <td>{{income.description}}</td>
+                <td>{{income.remarks}}</td>
+              </tr>
+            
+            </tbody>
+          </table>
+    </a>
+  
+  </div>
+  

@@ -21,14 +21,13 @@ namespace BudgetTracker.Core.ServiceInterface
         Task RemoveIncome(IncomeRequestModel incomeRequest);
         Task<IEnumerable<IncomeResponseModel>> GetAllIncomesForUser(int id);
         Task<IncomeResponseModel> UpdateIncome(IncomeRequestModel incomeRequest);
-
+        Task<IEnumerable<IncomeResponseModel>> GetAllIncomes();
 
 
         Task AddExpenditure(ExpenditureRequestModel expenditureRequest);
         Task RemoveExpenditure(ExpenditureRequestModel expenditureRequest);
         Task<IEnumerable<ExpenditureResponseModel>> GetAllExpendituresForUser(int id);
         Task<ExpenditureResponseModel> UpdateExpenditure(ExpenditureRequestModel expendituRequest);
-
-
+        Task<IEnumerable<ExpenditureResponseModel>> GetAllExpenditures();
     }
 }

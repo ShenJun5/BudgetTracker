@@ -115,9 +115,43 @@ namespace BudgetTracker.Infrastructure.Services
             await _incomeRepository.AddAsync(income);
         }
 
-        
+        public async Task<IEnumerable<ExpenditureResponseModel>> GetAllExpenditures()
+        {
+            var expenditures = await _expenditureRepository.ListAllAsync();
+            var response = new List<ExpenditureResponseModel>();
+            foreach (var expenditure in expenditures)
+            {
+                response.Add(new ExpenditureResponseModel
+                {
+                    UserId = expenditure.UserId,
+                    Amount = (decimal)expenditure.Amount,
+                    Description = expenditure.Description,
+                    ExpDate = expenditure.ExpDate,
+                    Remarks = expenditure.Remarks,
+                });
+            }
+            return response;
+        }
 
-   
+        public async Task<IEnumerable<IncomeResponseModel>> GetAllIncomes()
+        {
+            var incomes = await _incomeRepository.ListAllAsync();
+            var response = new List<IncomeResponseModel>();
+            foreach (var income in incomes)
+            {
+                response.Add(new IncomeResponseModel
+                {
+                    UserId = income.UserId,
+                    Amount = (decimal)income.Amount,
+                    Description = income.Description,
+                    IncomeDate = income.IncomeDate,
+                    Remarks = income.Remarks,
+                });
+            }
+            return response;
+        }
+
+
 
         public async Task<IEnumerable<ExpenditureResponseModel>> GetAllExpendituresForUser(int id)
         {
