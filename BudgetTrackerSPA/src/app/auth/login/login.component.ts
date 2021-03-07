@@ -20,10 +20,12 @@ export class LoginComponent implements OnInit {
   }
 
   constructor(private authService: AuthService, private router: Router, private route: ActivatedRoute) { }
+ 
   ngOnInit(): void {
     this.route.queryParams
     .subscribe(params => this.returnUrl = params.returnUrl || '/');
   }
+
   login() {
     console.log('login');
     this.authService.login(this.userLogin)

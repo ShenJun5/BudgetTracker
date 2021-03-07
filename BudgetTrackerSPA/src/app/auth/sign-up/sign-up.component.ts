@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { AuthService } from 'src/app/core/services/auth.service';
+import { Signup } from 'src/app/shared/models/signup';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-sign-up',
@@ -10,7 +13,7 @@ export class SignUpComponent implements OnInit {
   signupForm!: FormGroup;
   submitted = false;
 
-  constructor(private fb: FormBuilder) {}
+  constructor(private fb: FormBuilder, private authService: AuthService) {}
 
   get f() { return this.signupForm.controls; }
 
@@ -27,11 +30,13 @@ export class SignUpComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log(this.signupForm);
-    this.submitted = true;
     if (this.signupForm.invalid) {
       return;
     }
+    console.log(this.signupForm);
+    this.submitted = true;
+    
   }
-  
+
+ 
 }
