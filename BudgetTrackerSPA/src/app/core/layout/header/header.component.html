@@ -1,48 +1,16 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button
-      class="navbar-toggler"
-      type="button"
-      data-toggle="collapse"
-      data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"
-            >Home <span class="sr-only">(current)</span></a
-          >
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="">Login</a>
-        </li>
-        <li ngbDropdown class="nav-item dropdown">
-         
-          <div
-            ngbDropdownMenu
-            class="dropdown-menu"
-            aria-labelledby="navbarDropdown"
-          >
+  <div class="navbar-collapse collapse justify-content-between">
+    
+    <a class="navbar-brand" href="#">BudgetTracker</a>
+    
+    <ul class="nav-item">
+      <a class="btn btn-outline-primary rounded-pill"  [routerLink]="['/login']">
+        Login
+      </a>  
+      <a href="#" class="btn btn-primary rounded-pill" [routerLink]="['/register']">
+        SignUp
+      </a>
+    </ul>
 
-            
-          </div>
-        </li>
-
-        <li class="nav-item">
-          <a class="btn btn-outline-primary rounded-pill" href= "http://localhost:4200/login">Login</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="btn btn-primary rounded-pill">
-            SignUp
-          </a>
-        </li>
-        
-      </ul>
-
-    </div>
-  </nav>
+  </div>
+</nav>

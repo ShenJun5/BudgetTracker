@@ -14,7 +14,8 @@ import { SignUpComponent } from './auth/sign-up/sign-up.component';
 import { NotFoundComponent } from './shared/components/not-found/not-found.component';
 import { IncomeComponent } from './shared/components/income/income.component';
 
-import{FormsModule, ReactiveFormsModule} from'@angular/forms'
+import{FormsModule, ReactiveFormsModule} from'@angular/forms';
+import { ExpenditureComponent } from './shared/components/expenditure/expenditure.component'
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import{FormsModule, ReactiveFormsModule} from'@angular/forms'
     SignUpComponent,
     NotFoundComponent,
     IncomeComponent,
+    ExpenditureComponent,
   ],
   imports: [
     BrowserModule,

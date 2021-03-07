@@ -20,7 +20,7 @@ namespace BudgetTracker.API.Controllers
             _userService = userService;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<ActionResult> RegisterUserAsync([FromBody] UserRegisterRequestModel user)
         {
             var createdUser = await _userService.CreateUser(user);

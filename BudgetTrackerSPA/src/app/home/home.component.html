@@ -1,10 +1,17 @@
 <div class="rounded">
     <div class="container-fluid bg-light">
       <div class="row">
-        <div class="col-6 col-lg-3 col-sm-4 col-xl-2"
-             *ngFor="let income of incomes">
-            <app-income [income]='income'>
-             </app-income>
+        <div class='col'>
+          <div *ngFor="let income of incomes">
+              <app-income [income]='income'>
+              </app-income>
+          </div>
+        </div>
+        <div class='col'>
+          <div *ngFor="let expenditure of expenditures">
+            <app-expenditure [expenditure]='expenditure'>
+            </app-expenditure>
+          </div>
         </div>
       </div>
     </div>

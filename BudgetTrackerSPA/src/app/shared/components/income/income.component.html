@@ -1,24 +1,31 @@
 <div class="card mb-4 shadow  bg-light">
-    <a [routerLink]="[ '/User/', income ]">
-        <table class="table">
-            <thead>
-              <tr>
-                <th scope="col">#</th>
-                <th scope="col">Amount</th>
+  <div class="text-center"><h4>Income</h4></div>
+    <a [routerLink]="[ '/User/', income ]">    
+        <table class="table">         
+            <thead>                       
+              <tr>          
+                <th scope="col">Amount($)</th>
                 <th scope="col">Description</th>
                 <th scope="col">Remarks</th>
+                <th scope="col">IncomeDate</th>
+                <th scope="col">          </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row"> </th>
-                <td>{{income.amount}}</td>
-                <td>{{income.description}}</td>
-                <td>{{income.remarks}}</td>
+                <!-- <th scope="row"> </th> -->
+                  <td>{{income.amount}}</td>
+                  <td>{{income.description}}</td>
+                  <td>{{income.remarks}}</td>
+                  <td>{{income.incomeDate}}</td>
+                  <td><button type="button" class="btn btn-danger">Delete</button><button type="button" class="btn btn-warning">Modify</button></td>
               </tr>
             
             </tbody>
           </table>
+          <div style="text-align: center">
+            <button type="button" class="btn btn-success">Add Another Income</button>
+          </div>
     </a>
   
   </div>

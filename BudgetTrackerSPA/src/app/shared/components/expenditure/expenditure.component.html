@@ -1,0 +1,32 @@
+<div class="card mb-4 shadow  bg-light">
+    <div class="text-center"><h4>Expenditure</h4></div>
+      <a [routerLink]="[ '/User/', expenditure]">    
+          <table class="table">         
+              <thead>                       
+                <tr>          
+                  <th scope="col">Amount($)</th>
+                  <th scope="col">Description</th>
+                  <th scope="col">Remarks</th>
+                  <th scope="col">ExpDate</th>
+                  <th scope="col">          </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <!-- <th scope="row"> </th> -->
+                    <td>{{expenditure.amount}}</td>
+                    <td>{{expenditure.description}}</td>
+                    <td>{{expenditure.remarks}}</td>
+                    <td>{{expenditure.expDate}}</td>
+                    <td><button type="button" class="btn btn-danger">Delete</button><button type="button" class="btn btn-warning">Modify</button></td>
+                </tr>
+              
+              </tbody>
+            </table>
+            <div style="text-align: center">
+              <button type="button" class="btn btn-success">Add Another Expenditure</button>
+            </div>
+      </a>
+    
+    </div>
+    
